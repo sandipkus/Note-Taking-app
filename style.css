@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+h3{
+    text-align: center;
+    color: rgb(11, 204, 11);
+}
+
+#container{
+    margin: 0 auto;
+    width: 1000px;
+    height: 110px;
+}
+
+#inputField{
+    width: 900px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgb(245, 241, 241);
+    font-size: 15px;
+}
+
+#inputField:focus{
+    box-shadow: 0px 2px 4px black;
+}
+
+#addbtn{
+    margin-top: 10px;
+    height: 30px;
+    margin: 20px 450px;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(6, 231, 6);
+    color: white;
+    cursor: pointer;
+
+}
+
+#addbtn:hover{
+    background-color:rgb(22, 179, 22);
+    box-shadow: 0px 2px 4px black;
+}
+
+#noteBox{
+    width: 800px;
+    height: 150px;
+    margin: 0 auto;
+    border: 2px solid rgb(211, 201, 201);
+    border-radius: 5px;
+    visibility: hidden;
+}
